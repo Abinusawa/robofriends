@@ -1,0 +1,51 @@
+to manage packages
+ctrl+shift+p
+
+to ope the terminal
+ctrl+~
+
+GIT 
+git status
+1. git add
+2. git commit -m ''
+3. git push
+
+NPM
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd robofriends
+  npm start
+
+
+CLONING A REPO
+open with ssh/https
+run git clone (https link from the ssh)
+
+TO CREATE A NEW BRANCH
+git branch (Branch name)
+git checkout -b (branch name)"this auto takes you into the new branch
+TO SWITCH BRANCH
+git checkout (branch you want to switch to)
+
+REACT ESLINT ERROR
+stop the server,
+move out of the project dir,
+move out of the dir that contains the project,
+move in with the right dir name(i.e)
+cd Desktop/<project name> (correct)
+cd desktop/<project name> (wrong)
